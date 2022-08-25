@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+.dropdown-menu{
+    background-color: #fff;
+    min-width: 8em;
+}
+
+.compare_container{
+    background-color: #f6f6f2;
+    /* width: 100%; */
+    height: 100%;
+    padding-left: 13em;
+}
+
+.compare_title_container{
+    /* height: 100%;   */
+    /* text-align: center; */
+    font-family: 'Zilla Slab';  
+}
+
+.compare_title_container h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6em;
+    line-height: 1.5em;
+    /* position: fixed; */
+    /* text-align: center; */
+
+    display: flex; 
+    color: #6FB3B8;
+}
+
+.compare_container h2{
+    margin-bottom: 0.01em;
+    margin-top: 0.01em ;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.125em;
+    line-height: 1.5em;
+    /* text-align: center; */
+    padding-left: 0;
+    color: #388087;
+}
+
+.alert_container{
+    margin-top: 1.5em ;
+    Width: 81.5%;
+    Height: 70%;
+    /* padding-left: 13em;     */
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+#dropdownMenuButton1{
+    width: 15.625em;
+}
+
+#nav-link dropdown-toggle{
+    width: 15.625em;
+}
+
+.country_dropdown{
+    margin-top: 1em;
+    margin-bottom: 0.7em ;
+    /* margin-left: 13em; */
+    font-family: 'Zilla Slab';
+    font-style: normal;
+}
+
+.subject_dropdown{
+    /* margin-left: 13em; */
+    margin-bottom: 0.7em;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    color: #000;
+}
+
+.reset_btn{
+    background-color: #C2EDCE;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.reset_btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media (min-width: 768px) {
+    .reset_btn{
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+    }
+}
+
+.compare_btn{
+    background-color: #BADFE7;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    
+.compare_btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media (min-width: 768px) {
+    .compare_btn{
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+    }
+}
+
+/* https://getcssscan.com/css-buttons-examples  81 */
+
+
+.compare_grid_container{
+    Width: 81.5%;
+    grid-template-columns: 49% 49%;
+    display:grid;
+    grid-gap: 1.25em 1.25em;
+    /* margin: 0.5 0.5;  */
+    margin-top: 1em;
+    padding-bottom: 3em;
+
+}
+
+.compare_box{
+    background-color: #BADFE7;
+    justify-content:center;
+    align-items:center;
+    padding: 1.25em; 
+}
+
+.compare_content{
+    /* visibility: hidden; */
+    width: 100%;
+}
+
+.form-select{
+    width: 20%;
+    display: inline;
+}
+
+/* .compareMenus{
+    /* padding-left: 13em;    
+} */

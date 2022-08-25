@@ -1,0 +1,9 @@
+.title_container h1{
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+
+.title_container{
+    background-image: url('/countries/uk/uk_flag.png');
+}

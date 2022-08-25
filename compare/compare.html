@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison</title>
+    <!-- CSS only -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="compare.css"/> 
+    <link rel="stylesheet" href="/index/navbar.css"/> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Code+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="/index/index.html"><span style="color: #5e9693;">Temp</span><span style="color: #fff;">logo</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link px-3" href="/index/index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Americas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/countries/usa/usa.html">USA</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Asia
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/countries/japan/japan.html">Japan</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Europe
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/countries/austria/austria.html">Austria</a></li>
+              <li><a class="dropdown-item" href="/countries/france/france.html">France</a></li>
+              <li><a class="dropdown-item" href="/countries/germany/germany.html">Germany</a></li>
+              <li><a class="dropdown-item" href="/countries/italy/italy.html">Italy</a></li>
+              <li><a class="dropdown-item" href="/countries/netherlands/netherlands.html">Netherlands</a></li>
+              <li><a class="dropdown-item" href="/countries/norway/norway.html">Norway</a></li>
+              <li><a class="dropdown-item" href="/countries/spain/spain.html">Spain</a></li>
+              <li><a class="dropdown-item" href="/countries/uk/uk.html">UK</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Oceania
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/countries/australia/australia.html">Australia</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link px-3" href="/compare/compare.html">Compare</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="compare_container">
+
+        <div class="compare_title_container">
+          <h1>Compare</h1>
+        </div>
+        
+
+          <form>
+            <div class="compareMenus">
+
+                <select class="form-select" id="countryA">
+                  <option selected>Country</option>
+                  <option>Austria</option>
+                  <option>Australia</option>
+                  <option>France</option>
+                  <option>Germany</option>
+                  <option>Italy</option>
+                  <option>Japan</option>
+                  <option>Netherlands</option>
+                  <option>Norway</option>
+                  <option>Spain</option>
+                  <option>United Kingdom</option>
+                  <option>USA</option>
+                </select>
+
+                <select class="form-select" id="countryB">
+                  <option selected>Country</option>
+                  <option>Austria</option>
+                  <option>Australia</option>
+                  <option>France</option>
+                  <option>Germany</option>
+                  <option>Italy</option>
+                  <option>Japan</option>
+                  <option>Netherlands</option>
+                  <option>Norway</option>
+                  <option>Spain</option>
+                  <option>United Kingdom</option>
+                  <option>USA</option>
+                </select>
+
+                <select class="form-select" id="countryC">
+                  <option selected>Country</option>
+                  <option>Austria</option>
+                  <option>Australia</option>
+                  <option>France</option>
+                  <option>Germany</option>
+                  <option>Italy</option>
+                  <option>Japan</option>
+                  <option>Netherlands</option>
+                  <option>Norway</option>
+                  <option>Spain</option>
+                  <option>United Kingdom</option>
+                  <option>USA</option>
+                </select>
+
+              <select class="form-select" id="countryD">
+                <option selected>Country</option>
+                <option>Austria</option>
+                <option>Australia</option>
+                <option>France</option>
+                <option>Germany</option>
+                <option>Italy</option>
+                <option>Japan</option>
+                <option>Netherlands</option>
+                <option>Norway</option>
+                <option>Spain</option>
+                <option>United Kingdom</option>
+                <option>USA</option>
+              </select>
+              <br>
+              <br>
+
+              <select class="form-select" id="subject">
+                <option selected>Subject</option>
+                <option>Athlete Representation</option>
+                <option>Financials</option>
+                <option>Funding Model</option>
+                <option>Funding Program</option>
+                <option>Media</option>
+                <option>Performance Trends</option>
+                <option>Relationship with NOC</option>
+                <option>Social Change</option>
+                <option>Sport Management System</option>
+                <option>Staffing Breakdown</option>
+                <option>Strategic Plan</option>
+                <option>Sustainability</option>
+                <option>Technology</option>
+                <option>Where They Play</option>
+              </select>
+
+              <button type="button" class="reset_btn" onClick="clearContent();">Reset</button>
+              
+              <button type="button" class="compare_btn" Value="Click" onClick="collectFilters(this.form)">Compare</button>
+            
+            </div>
+          </form>
+
+        <div class="alert_container">
+          <div class="alert alert-primary" id="compare_alert" role="alert">
+            Enter a subject and at least one country. 
+          </div>
+        </div>
+        
+
+          <h2 class="subheading" id="compareSubjectTitle"> </h2>
+
+          <div class="compare_grid_container">
+
+            <div class="compare_box">
+              <h5 id="countryATitle"></h5>
+              <p class="compare_content" id="countryAContent"></p>
+            </div>
+
+            <div class="compare_box">
+              <h5 id="countryBTitle"></h5>
+              <p class="compare_content" id="countryBContent"></p>
+            </div>
+
+            <div class="compare_box">
+              <h5 id="countryCTitle"></h5>
+              <p class="compare_content" id="countryCContent"></p>
+            </div>
+
+            <div class="compare_box">
+              <h5 id="countryDTitle"></h5>
+
+              <p class="compare_content" id="countryDContent"></p>
+            </div>
+
+
+          </div>
+
+    </div>
+
+    <footer class="text-center text-lg-start footer_links">
+
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-sm">
+            <h5 class="text-uppercase">
+              <a href="/index.html" class="text-dark">Home</a>
+            </h5>
+          </div>
+
+          <div class="col-sm">
+            <h5 class="text-uppercase mb-0">Americas</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="/countries/usa/usa.html" class="text-dark">USA</a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="col-sm">
+            <h5 class="text-uppercase">Asia</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="/countries/japan/japan.html" class="text-dark">Japan</a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="col-sm">
+            <h5 class="text-uppercase mb-0">Europe</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="/countries/austria/austria.html" class="text-dark">Austria</a>
+              </li>
+              <li>
+                <a href="/countries/france/france.html" class="text-dark">France</a>
+              </li>
+              <li>
+                <a href="/countries/germany/germany.html" class="text-dark">Germany</a>
+              </li>
+              <li>
+                <a href="/countries/italy/italy.html" class="text-dark">Italy</a>
+              </li>
+              <li>
+                <a href="/countries/netherlands/netherlands.html" class="text-dark">Netherlands</a>
+              </li>
+              <li>
+                <a href="/countries/norway/norway.html" class="text-dark">Norway</a>
+              </li>
+              <li>
+                <a href="/countries/spain/spain.html" class="text-dark">Spain</a>
+              </li>
+              <li>
+                <a href="/countries/uk/uk.html" class="text-dark">United Kingdom</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm">
+            <h5 class="text-uppercase">Oceania</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="/countries/australia/australia.html" class="text-dark">Australia</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm">
+            <h5 class="text-uppercase">
+              <a href="/compare/compare.html" class="text-dark">Compare</a>
+            </h5>
+          </div>
+        </div>
+        
+      </div>
+    
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022
+      </div>
+    </footer>
+
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- <script type="module" src="compare.js"></script> -->
+    <script src="compare.js"></script>
+    <script src="data.js"></script>
+
+</body>
+</html>
+

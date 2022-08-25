@@ -1,0 +1,364 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+
+}
+
+/* Home page */
+
+.hero_container{
+    height: 100%;  
+    text-align: center;
+    font-family: 'Zilla Slab';  
+    background-image: url('/index/canada_flag.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 5%;
+}
+
+.title_container{
+
+    text-align: center;
+    padding-bottom: 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero_container h1{
+    font-weight: 700;
+    font-size: 6.5rem;
+    color: #000;
+    padding-top: 20%;
+    padding-bottom: 23%;
+}
+
+
+
+/* Countries CSS */
+
+.title{
+    font-family: 'Zilla Slab';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8.3em;
+    padding-top: 15%;
+    color: #000;
+}
+
+
+.finance_container{
+    background-color: #F6F6F2;
+    padding-left: 10em;
+    padding-right: 10em;
+
+}
+
+.subheading{
+
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.4em;
+    line-height: 7rem;
+    display: flex;
+    align-items: center;
+    color: #6FB3B8;
+}
+
+.finance_container h3{
+
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.125rem;
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+    color: #388087;
+}
+
+
+.box
+{
+    border-radius: 0.3125em;
+    padding: 1.875rem;
+    margin: 1.25em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+}
+
+
+.sponsors_subheadings h4{
+    display: inline-block;
+    text-align: center;
+}
+
+.sponsors_grid_container{
+
+    display: flex;
+    width: 100%;
+}
+
+.sponsors_box{
+    width: 40%;
+    justify-content: space-between; 
+    padding-left: 3em;
+    padding-top: 1em;
+}
+.wp, 
+.ws
+{
+    background-color: #6FB3B8 !important; 
+}
+.op{
+    background-color: #388087 !important;
+}
+
+.sponsors_subheading{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-size: 1.875rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.strategy_container{
+    background-color: #BADFE7;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 3em;
+}
+
+.strategy_container h2{
+    color: #388087;
+}
+
+.strategy_grid_container{
+    width: 100%;
+}
+
+.strategy_box{
+    border-radius: 1.25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.strategy_box h3{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.875rem;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.strategy_subheading{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.1875rem;
+    line-height: 4.813rem;
+    display: flex;
+    align-items: center;
+    color: #388087;
+} 
+
+.mission_box{
+    background: #F6F6F2;
+}
+
+.value_box{
+    background: #6FB3B8;
+}
+
+.focus_box{
+    background: #C2EDCE;
+}
+
+
+.operations_container{
+    background-color: #F1F1F1;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 3em;
+}
+
+.operations_container h3{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-size: 1.875rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #388087;
+}
+
+.staffing_breakdown_container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.athlete_rep_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards{
+    margin: 1.25rem;
+    padding: 1.25rem;
+    width: 25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background-color: #BADFE7;
+}
+
+.performance_cards{
+    margin: 1.25rem;
+    padding: 1.25rem;
+    width: 25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background-color: #F1F1F1;
+}
+
+.card_heading{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+} 
+
+.cards:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+.card_link{
+    position: relative;
+    text-decoration: none;
+}
+
+.external_container{
+    background-color: #6FB3B8;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.external_container h2{
+    color: #fff;
+}
+
+.external_container h3{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-size: 1.875rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+.external_goal_box h3{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-size: 1.875rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #000;
+}
+
+.external_goal_box{
+    border-radius: 1.25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+
+.sustainability_grid_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.sustainability_card{
+    padding: 1rem;
+    background-color: #f1f1f1;
+}
+
+
+.accordion-button{
+    background-color: #6FB3B8;
+}
+
+.sports_division_container{
+    padding-left: 0.5em;
+}
+
+
+
+.division_card{
+    background-color: #C2EDCE;
+    padding: 1rem;
+    border: 3px solid transparent;
+    background-clip:padding-box;
+    border-radius: 2rem;
+}
+
+
+.strategy_container h4{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #388087;
+}
+
+
+/* Navbar css */
+
+.navbar{
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-size: 1.25em;
+    color: #000;
+    background-color: #ecece3;
+    padding-top: 1em !important;
+}
+
+.dropdown-menu{
+    background-color: #fff;
+    min-width: 8em;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    letter-spacing: 0.19em;
+}
+
+.footer_links{
+    background-color: #ecece3;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+}
