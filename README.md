@@ -21,4 +21,4 @@ How and what files should be edited
 
 3. To edit the compare page, go to the compare folder, and then data.js 
 
-
+4. To edit the main page, go to index, and then index.html
